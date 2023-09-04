@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /STACK:100000000")
 option(BUILD_SHARED_LIBS "Build using shared libraries" OFF)
 
+set(CPACK_NSIS_CONTACT "rajiv.sithiravel@gmail.com")
+
 # Creational Patterns Start
 add_executable(AbstractFactory 
 AbstractFactory/src/AbstractFactory.cpp 
